@@ -35,7 +35,8 @@ body{
     margin-bottom: 50px;
 }
 
-.game img{
+.game img,
+.footer p{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -45,7 +46,6 @@ body{
 .text h1{
     font-weight: 700;
     font-size: 50px;
-    /*text-align: center;*/
     color: #000;
     margin-bottom: 30px;
 }
@@ -58,33 +58,38 @@ body{
     font-weight: 500;
     font-size: 18px;
     line-height: 137%;
-    /*text-align: center;*/
     color: #000;
     margin-bottom: 30px;
 }
 
-.text a{
+.text a,
+.godcow a{
     border-radius: 100px;
     padding: 22px 70px;
-    width: 218px;
+    width: 227px;
     height: 69px;
-    background: #000;
+    background: #ff6861;;
     font-family:"Open Sans", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid #000;
+    border: 1px solid #ff6861;;
     transition: 0.8s;
 }
-.text a:hover{
+
+.text a:hover,
+.godcow a:hover{
     color: #000;
     background: #fff;
 }
 
+.revard{
+    margin-bottom: 50px;
+}
 
-.showcase{
+.text a{
     margin-bottom: 120px;
 }
 
@@ -108,7 +113,6 @@ body{
     font-size: 20px;
     display: inline-block;
     margin-right: 35px;
-
 }
 
 .inersText{
@@ -129,6 +133,43 @@ body{
 }
 
 .iner{
-    margin-bottom: 40px; 
+    margin-bottom: 41px; 
     display: flex;
+}
+
+.godcow{
+    border-radius: 60px;
+    padding: 101px 37px;
+    width: 100%;
+    background: linear-gradient(148deg, #fff6df 0%, #ffdfde 100%);
+    text-align: center;
+}
+
+
+.godcow img{
+    margin-bottom: 100px;
+}
+
+.godcow h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+.godcow p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 137%;
+    margin-bottom: 25px;
+}
+
+.footer{
+    height: 260px;
+    position: relative;
+}
+
+.footer p{
+    font-weight: 400;
+    font-size: 15px;
 }
