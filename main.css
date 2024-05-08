@@ -99,11 +99,9 @@ body{
     line-height: 140%;
     text-align: center;
     margin-bottom: 70px;
-
 }
 
-.count{
-    border: 1px solid #000;
+.pic{
     border-radius: 20px;
     width: 77px;
     height: 77px;
